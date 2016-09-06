@@ -1,0 +1,15 @@
+@charset
+
+
+.active .carosel {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+}
+
+.carosel.current {
+  display: block;
+  z-index: 500;
+}
